@@ -8,7 +8,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest"
   },
   "prettier": {
     "semi": false,
@@ -37,8 +38,5 @@
     "start-server-and-test": "^1.10.8",
     "supertest": "^4.0.2",
     "test-listen": "^1.1.0"
-  },
-  "scripts": {
-    "test": "echo 'add a test command 🚀'"
   }
 }
