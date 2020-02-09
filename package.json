@@ -11,6 +11,11 @@
     "start": "next start",
     "test": "jest"
   },
+  "jest" : {
+    "collectCoverageFrom": [
+      "./src/**/*.js"
+    ]
+  },
   "prettier": {
     "semi": false,
     "singleQuote": true,
